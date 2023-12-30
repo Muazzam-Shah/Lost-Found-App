@@ -4,7 +4,7 @@ Welcome to the Lost and Found App prototype repository, built using the Qt frame
 This application aims to provide a simple and intuitive platform for managing lost and found items within a school or organizational setting. 
 The app is divided into three main pages: the main page, the admin page, and the student page.
 
-University Information
+# University Information
     University Name: [Ghulam Ishaq Khan Institute of Engineering Sciences and Technology]
     Course Name: [CS-221-LAB]
     Instructor Name: [USAMA ARSHAD]
