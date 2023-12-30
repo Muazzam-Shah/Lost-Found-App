@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>301</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnStudent">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>200</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border:none;
+color:white;
+background-color:rgb(64, 1, 11); 
+font:&quot;Arial&quot;; 
+border-radius:20px;}
+QPushButton:Hover
+{color:black;
+background-color:rgb(242, 201, 96);
+border-radius:50px;}
+QPushButton:pressed
+{background-color:green;}</string>
+    </property>
+    <property name="text">
+     <string>Student Access</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAdmin">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>150</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border:none;
+color:white;
+background-color:rgb(64, 1, 11); 
+font:&quot;Arial&quot;; 
+border-radius:20px;}
+QPushButton:Hover
+{color:black;
+background-color:rgb(242, 201, 96);
+border-radius:50px;}
+QPushButton:pressed
+{background-color:green;}</string>
+    </property>
+    <property name="text">
+     <string>Admin Access</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnExitMain">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>250</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border:none;
+color:white;
+background-color:rgb(64, 1, 11); 
+font:&quot;Arial&quot;; 
+border-radius:20px;}
+QPushButton:Hover
+{color:black;
+background-color:rgb(242, 201, 96);
+border-radius:50px;}
+QPushButton:pressed
+{background-color:green;}</string>
+    </property>
+    <property name="text">
+     <string>Exit Program</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>301</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>301</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/res/Screen Shot 2023-11-10 at 19.03.27.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>20</y>
+      <width>671</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>671</width>
+      <height>751</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: ;
+background-color: rgb(19, 27, 98);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 1200 italic 12pt &quot;Sitka&quot;;
+color:rgb(243, 224, 184)</string>
+    </property>
+    <property name="text">
+     <string>LOST AND FOUND</string>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>btnStudent</zorder>
+   <zorder>btnAdmin</zorder>
+   <zorder>btnExitMain</zorder>
+   <zorder>label_4</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
