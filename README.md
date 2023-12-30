@@ -5,9 +5,10 @@ This application aims to provide a simple and intuitive platform for managing lo
 The app is divided into three main pages: the main page, the admin page, and the student page.
 
 # University Information
-    University Name: [Ghulam Ishaq Khan Institute of Engineering Sciences and Technology]
-    Course Name: [CS-221-LAB]
-    Instructor Name: [USAMA ARSHAD]
+    University Name: Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+    Course Name: DATA STRUCTURES AND ALGORITHMS -LAB
+    Course Code: CS-221-L
+    Instructor Name: USAMA ARSHAD
     
 # Main Features
 1. Main Page:
